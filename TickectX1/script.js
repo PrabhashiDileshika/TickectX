@@ -22,6 +22,14 @@
             window.location.href = "/View Marketplace.html";
         }
 
+        function button4(){
+            window.location.href = "View Marketplace.html"
+        }
+
+        function button5() {
+            window.location.href = "Userview Marketplace.html"
+        }
+
 
 
 
