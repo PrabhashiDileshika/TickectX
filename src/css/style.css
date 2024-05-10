@@ -1,0 +1,1264 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:"Bai Jamjuree", sans-serif;
+}
+.page1{
+  position: relative;
+  background-color:#1C1C1C;
+}
+.nav{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.rectangle{
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #1C1C1C;
+}
+.logo{
+  position: absolute;
+  width: 255.93px;
+  height: 116px;
+  left: 120px;
+  top: 12px;
+}
+.text-content{
+  position:absolute;
+  width:754px;
+  height:240px;
+  top:344px;
+  left:120px;
+  gap: 0px;
+  opacity: 0px;
+  color: #FFFFFF;  
+  font-size: 48px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+.group1{
+  position: absolute;
+  width: 628px;
+  height: 676px;
+  top: 174px;
+  left: 980px;
+  gap: 0px;
+  opacity: 0px;
+}
+.rectangle-3{
+  position: absolute;
+  width: 628px;
+  height: 676;
+  top: 0;
+  left: 0;
+  background: #1C1C1C;
+}
+.main .img{
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  left: 14px;
+  top: 38px;
+}
+.CreateEventBtn{
+  position: absolute;
+  width: 231px;
+  height: 44px;
+  left: 120px;
+  top: 660px;
+}
+.rectangle-1{
+  position: absolute;
+  width: 231px;
+  height: 44px;
+  left: 0;
+  top: 0px;
+  border-radius: 8px;
+  background: #51f90e;
+}
+.btn-1{
+  position: absolute;
+  left: 61px;
+  top: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1C1C1C;
+}
+.BuyTicketBtn{
+  position: absolute;
+  width: 231px;
+  height: 44px;
+  left: 372px;
+  top: 660px;
+}
+.rectangle-2{
+  position: absolute;
+  width: 231px;
+  height: 44px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  background: #FFFFFF;
+}
+.btn-2{
+  position: absolute;
+  left: 48px;
+  top: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1C1C1C;
+  cursor: pointer;
+}
+/*Event Registration-Form*/
+.page2{
+  position: relative;
+  width: 1728px;
+  height:1117px;
+  background:#1C1C1C;
+}
+.content2{
+  position: absolute;
+  width: 734px;
+  height: 808;
+  left: 120px;
+  top: 176px;
+}
+.rectangle50{
+  position: absolute;
+  width: 734px;
+  height: 808px;
+  left: 0px;
+  top: 0px;
+}
+.image2 .img{
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  left: 17px;
+  top: 54px;
+}
+.RegistrationForm{
+  position: absolute;
+  left: 1037px;
+  top: 176px;
+  font-size: 48px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.content3{
+  position: absolute;
+  width: 480px;
+  height: 412px;
+  left: 1002px;
+  top: 316px;
+}
+.headname{
+  position: absolute;
+  width: 479.01;
+  height: 85px;
+  top: 0px;
+  left: 0px;
+}
+.Name{
+  position: absolute;
+  width: 170.58px;
+  height: 16px;
+  top:0;
+  left: 0;
+  font-size: 16px;
+  font-weight:400;
+  color: #FFFFFF;
+}
+.input1{
+ position: absolute;
+ width: 479.01px;
+ height: 43px;
+ top:42px;
+ left:0px;
+ border-radius: 16px;
+ border: 1px;
+ border: 1px solid #D7BFFF61;
+ box-shadow: 0px 4px 6.7px 0px #00000040;
+ background:none;
+}
+.heademail{
+  position: absolute;
+  width: 480px;
+  height: 85px;
+  left: 0px;
+  top: 109px;
+}
+.email{
+  position: absolute;
+  width: 54.55px;
+  height: 15px;
+  left: 0px;
+  top: 0px;
+  font-size: 16px;
+  font-weight:400;
+  color: #FFFFFF;
+}
+.input2{
+  position: absolute;
+  width: 480px;
+  height: 43px;
+  top:42px;
+  left:0px;
+  border-radius: 16px;
+  border: 1px;
+  border: 1px solid #D7BFFF61;
+  box-shadow: 0px 4px 6.7px 0px #00000040;
+  background:none;
+}
+.headpassword{
+  position:absolute;
+  width: 479.01px;
+  height: 85px;
+  left: 0px;
+  top: 218px;
+}
+.password{
+  position: absolute;
+  width: 135.87px;
+  height: 18px;
+  left: 0px;
+  top: 0px;
+  font-size: 16px;
+  font-weight:400;
+  color: #FFFFFF;
+}
+.input3{
+  position: absolute;
+  width: 479.01px;
+  height: 43px;
+  top:42px;
+  left:0px;
+  border-radius: 16px;
+  border: 1px;
+  border: 1px solid #D7BFFF61;
+  box-shadow: 0px 4px 6.7px 0px #00000040;
+  background:none;
+}
+.headconfirmpassword{
+  position: absolute;
+  width: 479.01px;
+  height: 85px;
+  left: 0px;
+  top: 327px;
+}
+.confirmpassword{
+  width: 141.82px;
+  height: 17px;
+  left: 0px;
+  top: 0px;
+  font-size: 16px;
+  font-weight:400;
+  color: #FFFFFF;
+}
+.input4{
+  position:absolute;
+  width: 479.01px;
+  height: 43px;
+  top:42px;
+  left:0px;
+  border-radius: 16px;
+  border: 1px;
+  border: 1px solid #D7BFFF61;
+  box-shadow: 0px 4px 6.7px 0px #00000040;
+  background:none;
+}
+.conten1{
+  position: absolute;
+  width: 293px;
+  height: 19px;
+  left: 1000px;
+  top: 763px;
+}
+.accept{
+  position: absolute;
+  width: 267px;
+  left:26px;
+  top: 0px;
+  font-size: 15px;
+  font-weight: 400;
+  color:#DADADA;
+}
+.icon1{
+  position: absolute;
+  width: 17.89px;
+  height: 17.89px;
+  left: 0px;
+  top: 0px;
+  background:#DADADA;
+}
+.signrectangle{
+  position: absolute;
+  width: 232px;
+  height: 35px;
+  padding-left: 63px;
+  padding-right: 63px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  left: 1125px;
+  top: 857px;
+  background: #51F90E;
+  border-radius: 8px;
+  justify-content:center;
+  align-items: center;
+  gap: 10px;
+}
+.signup{
+  position: absolute;
+  color: #1C1C1C;
+  left:85.50px;
+  top: 7px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.backbtn2{
+  position: absolute;
+  width: 107px;
+  height: 31px;
+  left: 1502px;
+  top: 1000px;
+}
+.rectangle03{
+  position: absolute;
+  width: 107px;
+  height: 31px;
+  left: 0px;
+  top: 0px;
+  border-radius: 4px;
+  border: 1px solid #FFFFFF;
+}
+.content21{
+  position: absolute;
+  width: 62px;
+  height: 20px;
+  left: 23px;
+  top: 6px;
+}
+.icon3{
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 0px;
+  top: 2px;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+.back2{
+  position: absolute;
+  left: 25px;
+  top: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+/*Create Event Page*/
+.page3{
+  position: relative;
+  width: 1728px;
+  height: 1117px;
+  background: #1C1C1C;
+}
+.lets-discuss{
+  position: absolute;
+  left: 246px;
+  top: 192px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.content4{
+  position: absolute;
+  width: 484px;
+  height: 630px;
+  left: 246px;
+  top: 264px;
+}
+.letsname{
+  position: absolute;
+  width: 483px;
+  height: 85px;
+  left: 0px;
+  top: 0px;
+}
+.coordinatorname{
+  position: absolute;
+  width: 172px;
+  height: 16px;
+  left: 0px;
+  top: 0px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+}
+.input5{
+  position: absolute;
+  width: 483px;
+  height: 43px;
+  left: 0px;
+  top: 42px;
+  border-radius: 16px;
+  border: 1px solid #D7BFFF61;
+  box-shadow: 0px 4px 6.7px 0px #00000040;
+  background:none ;
+}
+.letsemail{
+  position: absolute;
+  width: 484px;
+  height: 85px;
+  left: 0px;
+  top: 109px;
+}
+.coordinatoremail{
+  position: absolute;
+  width: 55px;
+  height: 15px;
+  left: 0px;
+  top: 0px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+}
+.input6{
+  position: absolute;
+  width: 484px;
+  height: 43px;
+  left: 0px;
+  top: 42px;
+  border-radius: 16px;
+  border: 1px solid #D7BFFF61;
+  box-shadow: 0px 4px 6.7px 0px #00000040;
+  background:none ;
+}
+.letsmobilenumber{
+  position: absolute;
+  width: 483px;
+  height: 85px;
+  left: 0px;
+  top: 218px;
+}
+.coordinatormobilenumber{
+  position: absolute;
+  width: 137px;
+  height: 14px;
+  left: 0px;
+  top: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.input7{
+  position: absolute;
+  width: 483px;
+  height: 43px;
+  left: 0px;
+  top: 42px;
+  border-radius: 16px;
+  border: 1px solid #D7BFFF61;
+  box-shadow: 0px 4px 6.7px 0px #00000040;
+  background:none ;
+}
+.letsindustry{
+  position: absolute;
+  width: 483px;
+  height: 85px;
+  left: 0px;
+  top: 327px;
+}
+.coordinatorindustry{
+  position: absolute;
+  width: 121px;
+  height: 17px;
+  left: 0px;
+  top: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.input8{
+  position: absolute;
+  width: 483px;
+  height: 43px;
+  left: 0px;
+  top: 42px;
+  border-radius: 16px;
+  border: 1px solid #D7BFFF61;
+  box-shadow: 0px 4px 6.7px 0px #00000040;
+  background:none ;
+}
+.letseventtitle{
+  position: absolute;
+  width: 481px;
+  height: 85px;
+  left: 0px;
+  top: 436px;
+}
+.coordinatoreventtitle{
+  position: absolute;
+  width: 112px;
+  height: 21px;
+  left:0px;
+  top: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.input9{
+  position: absolute;
+  width: 483px;
+  height: 43px;
+  left: 0px;
+  top: 42px;
+  border-radius: 16px;
+  border: 1px solid #D7BFFF61;
+  box-shadow: 0px 4px 6.7px 0px #00000040;
+  background:none ;
+}
+.letseventtime{
+  position: absolute;
+  width: 483px;
+  height: 85px;
+  left: 0px;
+  top:545px;
+}
+.coordinatoreventtime{
+  position: absolute;
+  width: 137px;
+  height: 17px;
+  left:0px;
+  top: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.input10{
+  position: absolute;
+  width: 483px;
+  height: 43px;
+  left: 0px;
+  top: 42px;
+  border-radius: 16px;
+  border: 1px solid #D7BFFF61;
+  box-shadow: 0px 4px 6.7px 0px #00000040;
+  background:none
+}
+.content5{
+  position: absolute;
+  width: 483px;
+  height: 521px;
+  left: 874px;
+  top: 264px;
+}
+.letseventlocation{
+  position: absolute;
+  width: 481px;
+  height: 85px;
+  left: 0px;
+  top: 0px;
+}
+.coordinatoreventlocation{
+  position: absolute;
+  width: 137px;
+  height: 21px;
+  left: 0px;
+  top: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.input11{
+  position: absolute;
+  width: 481px;
+  height: 43px;
+  left: 0px;
+  top: 42px;
+  border-radius: 16px;
+  border: 1px solid #D7BFFF61;
+  box-shadow: 0px 4px 6.7px 0px #00000040;
+  background:none
+}
+.letsheld{
+  position: absolute;
+  width: 483px;
+  height: 85px;
+  left: 0px;
+  top: 109px;
+}
+.coordinatorheld{
+  position: absolute;
+  width: 298px;
+  height: 16px;
+  left: 0px;
+  top: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.input12{
+  position: absolute;
+  width: 483px;
+  height: 43px;
+  left: 0px;
+  top: 42px;
+  border-radius: 16px;
+  border: 1px solid #D7BFFF61;
+  box-shadow: 0px 4px 6.7px 0px #00000040;
+  background: none;
+}
+.letseventdate{
+  position: absolute;
+  width: 483px;
+  height: 85px;
+  left: 0px;
+  top: 218px;
+}
+.coordinatoreventdate{
+  position: absolute;
+  width: 137px;
+  height: 14px;
+  left: 0px;
+  top: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.input13{
+  position: absolute;
+  width: 483px;
+  height: 43px;
+  left: 0px;
+  top: 42px;
+  border-radius: 16px;
+  border: 1px solid #D7BFFF61;
+  box-shadow: 0px 4px 6.7px 0px #00000040;
+  background: none;
+}
+.letsevent{
+  position: absolute;
+  width:483px;
+  height: 85px;
+  left: 0px;
+  top: 327px;
+}
+.coordinatorevent{
+  position: absolute;
+  width: 324px;
+  height: 21px;
+  left: 0px;
+  top: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.input14{
+  position: absolute;
+  width: 483px;
+  height: 43px;
+  left: 0px;
+  top: 42px;
+  border-radius: 16px;
+  border: 1px solid #D7BFFF61;
+  box-shadow: 0px 4px 6.7px 0px #00000040;
+  background: none;
+}
+.letsticketsales{
+  position: absolute;
+  width: 481px;
+  height: 85px;
+  left: 0px;
+  top: 436px;
+}
+.coordinatorticketsales{
+  position: absolute;
+  width: 173px;
+  height: 15px;
+  left: 0px;
+  top: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.input15{
+  position: absolute;
+  width: 231px;
+  height: 43px;
+  left: 0px;
+  top: 42px;
+  border-radius: 16px;
+  border: 1px solid #D7BFFF61;
+  box-shadow: 0px 4px 6.7px 0px #00000040;
+  background: none;
+}
+.input16{
+  position: absolute;
+  width: 231px;
+  height: 43px;
+  left: 250px;
+  top: 42px;
+  border-radius: 16px;
+  border: 1px solid #D7BFFF61;
+  box-shadow: 0px 4px 6.7px 0px #00000040;
+  background: none;
+}
+.content6{
+  position: absolute;
+  left: 877px; 
+  top: 859px;
+  padding-left: 63px;
+  padding-right: 63px;
+  padding-top: 10px; 
+  padding-bottom: 10px;
+  gap: 10px; 
+  background: #51F90E; 
+  border-radius: 8px; 
+  justify-content: center; 
+  align-items: center;
+}
+.btnback{
+  position: absolute;
+  left: 25px;
+  top: 0px;
+  font-size:16px;
+  font-weight:400;
+  color:#FFFFFF;
+}
+.content7{
+  position: absolute;
+  width: 62px;
+  height: 20px;
+  left: 23px;
+  top: 6px;
+}
+.rectangle1{
+  position: absolute;
+  width: 107px;
+  height: 31px;
+  left: 0px;
+  top: 0px;
+  border-radius: 4px;
+  border: 1px solid #ffff;
+}
+.icon{
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 0px;
+  top: 2px;
+  background:none;
+}
+.back{
+  position:absolute; 
+  left: 25px; 
+  top: 0px; 
+  color: white; 
+  font-size: 16px; 
+  font-weight: 400;
+}
+.backbtn{
+  position: relative;
+  width: 107px;
+  height: 31px;
+}
+.backbtn1{
+  width: 107px;
+  height: 31px;
+  left: 1502px;
+  top: 1000px;
+  position: absolute;
+}
+.rectangle02{
+  position: absolute;
+  width: 107px;
+  height: 31px;
+  left: 0px;
+  top: 0px;
+  border-radius: 4px;
+  border: 1px solid #FFFFFF;
+}
+.content20{
+  position: absolute;
+  width: 62px;
+  height: 20px;
+  left: 23px;
+  top: 6px;
+}
+.icon2{
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 0px;
+  top: 2px;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+.back1{
+  position: absolute;
+  left: 25px;
+  top: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+/*Marketplace-view (not login)*/
+.page4{
+  position: relative;
+  width: 1728px;
+  height: 1117px;
+  background: #1C1C1C;
+}
+.loginbtn1{
+  position: absolute;
+  width: 126px;
+  height: 40px;
+  left: 1482px;
+  top: 50px;
+}
+.rectangle20{
+  position: absolute;
+  width: 126px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  background: #51F90E;
+}
+.login{
+  position: absolute;
+  left: 41px;
+  top: 11px;
+  color:#000000;
+  font-size: 16px; 
+  font-weight: 700;
+}
+.rectangle30{
+  position: absolute;
+  width: 1488px;
+  height: 320px;
+  left: 120px;
+  top: 144px;
+}
+.rectangle31{
+  position: absolute;
+  width: 357px;
+  height: 492px;
+  left: 246px;
+  top: 296px;
+}
+.content17{
+  position: absolute;
+  width: 231px;
+  height: 44px;
+  left: 1377px;
+  top: 528px;
+}
+.rectangle47{
+  position: absolute;
+  width: 231px;
+  height: 44px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  background: #FFFFFF;
+}
+.createticket{
+  position: absolute;
+  width: 103px;
+  height: 17px;
+  left: 64px;
+  top: 14px;
+  font-size: 16px;
+  font-weight: 700;
+  color:#1C1C1C;
+}
+.coachella{
+  position: absolute;
+  left: 754px;
+  top: 528px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #51F90E;
+}
+.content8{
+  position: absolute;
+  width: 711px;
+  height: 85px;
+  left: 748px;
+  top: 631px;
+}
+.description{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #DADADA;
+}
+.text1{
+  position: absolute;
+  width: 599px;
+  left: 112px;
+  top: 1px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+.content9{
+  position: absolute;
+  width: 357px;
+  height: 116px;
+  left: 748px;
+  top: 772px;
+}
+.content10{
+  position: absolute;
+  width: 357px;
+  height: 116px;
+  left: 0px;
+  top: 0px;
+}
+.rectangle49{
+  position: absolute;
+  width: 357px;
+  height: 116px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  border: 1px solid #d1f5ff;
+}
+.text2{
+  position: absolute;
+  width: 130px;
+  height: 16px;
+  left: 20px;
+  top: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.line1{
+  position: absolute;
+  width: 357px;
+  height: 0px;
+  left: 0px;
+  top: 40px;
+  border: 1px solid #ffff;
+}
+.content11{
+  position: absolute;
+  width: 299px;
+  height: 48px;
+  left: 30px;
+  top: 55px;
+}
+.content12{
+  position: absolute;
+  width: 299px;
+  height: 15px;
+  left: 0px;
+  top: 0px;
+}
+.mon{
+  position: absolute;
+  width: 37px;
+  height: 15px;
+  left: 0px;
+  top: 0px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.tue{
+  position: absolute;
+  width: 29PX;
+  height: 15PX;
+  left: 50PX;
+  top: 0PX;
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.wed{
+  position: absolute;
+  width: 38PX;
+  height: 15PX;
+  left: 92PX;
+  top: 0PX;
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.thu{
+  position: absolute;
+  width: 31PX;
+  height: 15PX;
+  left: 143PX;
+  top: 0PX;
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.fri{
+  position: absolute;
+  width: 24PX;
+  height: 15PX;
+  left: 188PX;
+  top: 0PX;
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.sat{
+  position: absolute;
+  width: 29PX;
+  height: 15PX;
+  left: 225PX;
+  top: 0PX;
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.sun{
+  position: absolute;
+  width: 32PX;
+  height: 15PX;
+  left: 267PX;
+  top: 0PX;
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.content13{
+  position: absolute;
+  width: 281.55px;
+  height: 28px;
+  left: 9.45px;
+  top: 20px;
+}
+.num1{
+  position: absolute;
+  width: 5.81px;
+  height: 14px;
+  left: 0px;
+  top: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.num2{
+  position: absolute;
+  width:8.71px;
+  height: 14px;
+  left: 49.34px;
+  top: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.num3{
+  position: absolute;
+  width:8.71px;
+  height: 14px;
+  left: 98.69px;
+  top: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.content14{
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 135.55px;
+  top: 0px;
+}
+.ellipse1{
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left:-8px;
+  top: 0px;
+  background: #51F90E;
+  border-radius: 9999px;
+}
+.num4{
+  position: absolute;
+  width:28px;
+  height: 28px;
+  left:135.55px;
+  top: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #1C1C1C;
+}
+.num5{
+  position: absolute;
+  width:8.71px;
+  height: 15px;
+  left: 187.70px;
+  top: 4px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.num6{
+  position: absolute;
+  width:8.71px;
+  height: 14px;
+  left: 228.34px;
+  top: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.num7{
+  position: absolute;
+  width:8.71px;
+  height: 15px;
+  left: 272.85px;
+  top: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.content15{
+  position: absolute;
+  width: 106px;
+  height: 116px;
+  left: 1125px;
+  top: 772px;
+}
+.rectangle53{
+  width: 106px;
+  height: 116px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  border: 2px solid #d1f5ff;
+}
+.pm{
+  position: absolute;
+  left: 35PX;
+  top: 20PX;
+  font-size: 24PX;
+  font-weight: 700;
+  color: #51F90E;
+}
+.num{
+  position: absolute;
+  left: 17px;
+  top: 50px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #51f90e;
+}
+.content16{
+  position: absolute;
+  width: 106px;
+  height: 116px;
+  left: 1251px;
+  top: 772px;
+}
+.rectangle53{
+  position: absolute;
+  width: 106px;
+  height: 116px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  border: 2px solid #d1f5ff;
+}
+.price{
+  position: absolute;
+  left: 45px;
+  top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #d1f5ff;
+}
+.Num{
+  position: absolute;
+  left: 22px;
+  top: 58px;
+  font-size: 24px;
+  font-weight: 700;
+  color:#d1f5ff;
+}
+.content18{
+  position: absolute;
+  width: 357px;
+  height: 44px;
+  left: 246px;
+  top: 820px;
+}
+.rectangle54{
+  position: absolute;
+  width: 357px;
+  height: 44px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  border: 2px solid #d1f5ff;
+}
+.updateticket{
+  position: absolute;
+  left: 140px;
+  top: 13px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #d1f5ff;
+}
+.backbtn{
+  position: absolute;
+  width: 107px;
+  height: 31px;
+  left: 1482px;
+  top: 1017px;
+}
+.rectangle01{
+  position: absolute;
+  width: 107px;
+  height: 31px;
+  left: 0px;
+  top: 0px;
+  border-radius: 4px;
+  border: 1px solid #FFFFFF;
+}
+.content19{
+  position: absolute;
+  width: 69px;
+  height: 15.48px;
+  left: 20px;
+  top: 8px;
+}
+.icon1{
+  position: absolute;
+  width: 16px;
+  height: 14.48px;
+  left: 0px;
+  top: 1px;
+  background:1px solid #FFFFFF;
+}
+.back{
+  position: absolute;
+  width: 37px;
+  height: 15px;
+  left: 32px;
+  top: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+/*welcome back*/
+.page5{
+  position: relative;
+  width: 1728px;
+  height: 1117px;
+  background: #1C1C1C;
+}

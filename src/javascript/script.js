@@ -30,6 +30,10 @@
             window.location.href = "Userview Marketplace.html"
         }
 
+        function button06() {
+            window.location.href = "User Dashboard.html"
+        }
+
 
 
 
