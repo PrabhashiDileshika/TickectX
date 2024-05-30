@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
+
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +17,7 @@ body {
 .main {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  padding: 20px;
 
   /* overflow: hidden; */
 }
@@ -53,69 +54,92 @@ body {
   gap: 30px;
 }
 
-.left {
+.right {
   display: flex;
   flex-direction: column;
-  gap:40px;
+  gap:20px;
 }
 
 
-.header{
-  font-size: 46px;
-  font-weight: 700;
-  word-wrap: break-word;
-  color: #fff;
-  width: 100%;
-}
-
-.main-btns{
-  display: flex;
-  flex-direction: row;
-  gap: 15px;
-  align-items: center;
-}
-
-.BuyTicketBtn , .CreateEventBtn{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 20px;
-  border-radius: 10px;
-  font-size: 16px;
-  font-weight: 700;
-  min-width: 250px;
-  width: 100%;
-  max-width: 300px;
-}
-
-.BuyTicketBtn{
-  background-color: #ffffff;
-  color: #1C1C1C;
-}
-
-.CreateEventBtn{
-  background: #51f90e;
-  color: #000000;
-}
-
-.right{
+.left{
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.right .main-img{
+.left .main-img{
 max-width: 500px;
 height: auto;
 width: 100%;
 }
+.input1 {
+    width: 400px;
+    height: 45px;
+    border-radius: 40px;
+    gap: 50px;
+    opacity: 26%;
+}
+.check1 {
+    display: flex;
+    display: wrap;
+}
+
+.subhead {
+font-size: 16px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .check1 {
+    margin-right: 10px; 
+  }
+  
+  .checkbox-label {
+    margin: 0; 
+  }
+
+.btn{
+  background-color: #3cff00;
+  width: 50%;
+  padding: 10px ;
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+  border-radius: 8px;
+  text-align: center;
+}
+.sign{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.back{
+  display: flex ;
+  justify-content: end;
+}
+.btnback{
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  width: 20%;
+  padding: 5px;
+  background: none;
+  color: white;
+  border-radius: 4px;
+  border: white 1px solid;
+}
+
 @media (max-width: 768px) {
   .nav {
-    padding: 15px 20px; 
+    padding: 15px 20px;
   }
 
   .logo {
-    width: 120px; 
+    width: 120px;
   }
 
   .content {
@@ -163,10 +187,8 @@ width: 100%;
   }
 
   .left {
-    gap: 60px;
+    gap: 60px; 
   }
 
 
 }
-/* end of main page */
-

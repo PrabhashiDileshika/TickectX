@@ -1,62 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event Registration-Form</title>
-    <link rel="stylesheet" href="/src/css/style.css">
-</head>
-<body>
-    <div class="page2">
-        <nav>
-            <div class="rectangle">
-                <div class="logo">
-                    <img src="/src/assets/icons/Logo.png" alt="">
-                </div>
-            </div>
-        </nav>
-        <div class="content2">
-            <div class="rectangle50">
-                <div class="image2">
-                    <img src="/src/assets/image/register.png" alt="">
-                </div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TickectX</title>
+    <link rel="stylesheet" href="/src/css/register.css" />
+  </head>
+  <body>
+    <div class="main">
+      <nav class="nav">
+        <div class="logo">
+          <img src="/src/assets/icons/Logo.png" alt="" />
         </div>
-        <div class="RegistrationForm">Registration Form</div>
-        <div class="content3">
-            <div class="headname">
-                <p class="Name">Name :</p>
-            </div>
-            <input type="text" class="input1">
-            <div class="heademail">
-                <p class="email">Email :</p>
-                <input type="text" class="input2">
-            </div>
-            <div class="headpassword">
-                <p class="password">Password :</p>
-                <input type="text" class="input3">
-            </div>
-            <div class="headconfirmpassword">
-                <p class="confirmpassword">Confirm Password :</p>
-                <input type="text" class="input4">
-            </div>
+      </nav>
+      <div class="content container">
+        <div class="left">
+            <img src="/src/assets/image/register.png" alt="" class="main-img" />
+          
         </div>
-        <div class="conten1">
-            <div class="accept">I accept the Terms and Condition</div>
-            <div class="icon1"></div>
+
+        <div class="right">
+          <h2>Registration Form</h2>
+          <p class="subhead">Name :</p>            
+        <input type="text" class="input1">
+        <p class="subhead1">Email :</p>             
+        <input type="text" class="input1">
+        <p class="subhead2">Password :</p>             
+        <input type="text" class="input1">
+        <p class="subhead3">Confirm Password :</p>             
+        <input type="text" class="input1">
+        <div class="checkbox-container">
+          <input type="checkbox" id="check" class="check1">
+          <label for="check" class="checkbox-label">I accept the Terms and Conditions.</label>
         </div>
-        <div class="signrectangle">
-            <div class="signup">Sign Up</div>
+
+        <div class="sign">
+          <button class="btn">Sign Up</button>
         </div>
-        <div class="backbtn2">
-            <div class="rectangle03">
-                <div class="content21">
-                    <div class="icon3">
-                        <div class="back2">Back</div>
-                    </div>
-                </div>
-            </div>
+        <div class="back">
+          <button class="btnback">
+            <img src="/src/assets/icons/icon.svg">Back</button>
         </div>
+        
+        </div>
+        <script src="/src/javascript/script.js"></script>
+      </div>
     </div>
-</body>
+ </body>
 </html>
